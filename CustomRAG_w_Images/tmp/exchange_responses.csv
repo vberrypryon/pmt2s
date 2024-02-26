@@ -1,0 +1,577 @@
+create_time,response_time_millis,uuid,understood_text,exchange_id,best_1_text,best_1_content_id,best_1_image_page,best_1_aic,best_1_content_display_name,best_1_content_group,best_1_score,best_1_url,best_1_page,ans1_text_sentence_bbox_1_x1,ans1_text_sentence_bbox_1_y1,ans1_text_sentence_bbox_1_x2,ans1_text_sentence_bbox_1_y2,ans1_text_sentence_bbox_1_page,ans1_text_sentence_bbox_1_image_x,ans1_text_sentence_bbox_1_image_y,ans1_text_sentence_bbox_2_x1,ans1_text_sentence_bbox_2_y1,ans1_text_sentence_bbox_2_x2,ans1_text_sentence_bbox_2_y2,ans1_text_sentence_bbox_2_page,ans1_text_sentence_bbox_2_image_x,ans1_text_sentence_bbox_2_image_y,ans1_text_sentence_bbox_3_x1,ans1_text_sentence_bbox_3_y1,ans1_text_sentence_bbox_3_x2,ans1_text_sentence_bbox_3_y2,ans1_text_sentence_bbox_3_page,ans1_text_sentence_bbox_3_image_x,ans1_text_sentence_bbox_3_image_y,ans1_text_sentence_bbox_4_x1,ans1_text_sentence_bbox_4_y1,ans1_text_sentence_bbox_4_x2,ans1_text_sentence_bbox_4_y2,ans1_text_sentence_bbox_4_page,ans1_text_sentence_bbox_4_image_x,ans1_text_sentence_bbox_4_image_y,ans1_text_sentence_bbox_5_x1,ans1_text_sentence_bbox_5_y1,ans1_text_sentence_bbox_5_x2,ans1_text_sentence_bbox_5_y2,ans1_text_sentence_bbox_5_page,ans1_text_sentence_bbox_5_image_x,ans1_text_sentence_bbox_5_image_y,ans1_text_sentence_bbox_6_x1,ans1_text_sentence_bbox_6_y1,ans1_text_sentence_bbox_6_x2,ans1_text_sentence_bbox_6_y2,ans1_text_sentence_bbox_6_page,ans1_text_sentence_bbox_6_image_x,ans1_text_sentence_bbox_6_image_y,ans1_text_sentence_bbox_7_x1,ans1_text_sentence_bbox_7_y1,ans1_text_sentence_bbox_7_x2,ans1_text_sentence_bbox_7_y2,ans1_text_sentence_bbox_7_page,ans1_text_sentence_bbox_7_image_x,ans1_text_sentence_bbox_7_image_y,ans1_text_sentence_bbox_8_x1,ans1_text_sentence_bbox_8_y1,ans1_text_sentence_bbox_8_x2,ans1_text_sentence_bbox_8_y2,ans1_text_sentence_bbox_8_page,ans1_text_sentence_bbox_8_image_x,ans1_text_sentence_bbox_8_image_y,ans1_text_sentence_bbox_9_x1,ans1_text_sentence_bbox_9_y1,ans1_text_sentence_bbox_9_x2,ans1_text_sentence_bbox_9_y2,ans1_text_sentence_bbox_9_page,ans1_text_sentence_bbox_9_image_x,ans1_text_sentence_bbox_9_image_y,ans1_text_sentence_bbox_10_x1,ans1_text_sentence_bbox_10_y1,ans1_text_sentence_bbox_10_x2,ans1_text_sentence_bbox_10_y2,ans1_text_sentence_bbox_10_page,ans1_text_sentence_bbox_10_image_x,ans1_text_sentence_bbox_10_image_y,ans2_text_sentence_bbox_1_x1,ans2_text_sentence_bbox_1_y1,ans2_text_sentence_bbox_1_x2,ans2_text_sentence_bbox_1_y2,ans2_text_sentence_bbox_1_page,ans2_text_sentence_bbox_1_image_x,ans2_text_sentence_bbox_1_image_y,ans2_text_sentence_bbox_2_x1,ans2_text_sentence_bbox_2_y1,ans2_text_sentence_bbox_2_x2,ans2_text_sentence_bbox_2_y2,ans2_text_sentence_bbox_2_page,ans2_text_sentence_bbox_2_image_x,ans2_text_sentence_bbox_2_image_y,ans2_text_sentence_bbox_3_x1,ans2_text_sentence_bbox_3_y1,ans2_text_sentence_bbox_3_x2,ans2_text_sentence_bbox_3_y2,ans2_text_sentence_bbox_3_page,ans2_text_sentence_bbox_3_image_x,ans2_text_sentence_bbox_3_image_y,ans2_text_sentence_bbox_4_x1,ans2_text_sentence_bbox_4_y1,ans2_text_sentence_bbox_4_x2,ans2_text_sentence_bbox_4_y2,ans2_text_sentence_bbox_4_page,ans2_text_sentence_bbox_4_image_x,ans2_text_sentence_bbox_4_image_y,ans2_text_sentence_bbox_5_x1,ans2_text_sentence_bbox_5_y1,ans2_text_sentence_bbox_5_x2,ans2_text_sentence_bbox_5_y2,ans2_text_sentence_bbox_5_page,ans2_text_sentence_bbox_5_image_x,ans2_text_sentence_bbox_5_image_y,ans2_text_sentence_bbox_6_x1,ans2_text_sentence_bbox_6_y1,ans2_text_sentence_bbox_6_x2,ans2_text_sentence_bbox_6_y2,ans2_text_sentence_bbox_6_page,ans2_text_sentence_bbox_6_image_x,ans2_text_sentence_bbox_6_image_y,ans2_text_sentence_bbox_7_x1,ans2_text_sentence_bbox_7_y1,ans2_text_sentence_bbox_7_x2,ans2_text_sentence_bbox_7_y2,ans2_text_sentence_bbox_7_page,ans2_text_sentence_bbox_7_image_x,ans2_text_sentence_bbox_7_image_y,ans2_text_sentence_bbox_8_x1,ans2_text_sentence_bbox_8_y1,ans2_text_sentence_bbox_8_x2,ans2_text_sentence_bbox_8_y2,ans2_text_sentence_bbox_8_page,ans2_text_sentence_bbox_8_image_x,ans2_text_sentence_bbox_8_image_y,ans2_text_sentence_bbox_9_x1,ans2_text_sentence_bbox_9_y1,ans2_text_sentence_bbox_9_x2,ans2_text_sentence_bbox_9_y2,ans2_text_sentence_bbox_9_page,ans2_text_sentence_bbox_9_image_x,ans2_text_sentence_bbox_9_image_y,ans2_text_sentence_bbox_10_x1,ans2_text_sentence_bbox_10_y1,ans2_text_sentence_bbox_10_x2,ans2_text_sentence_bbox_10_y2,ans2_text_sentence_bbox_10_page,ans2_text_sentence_bbox_10_image_x,ans2_text_sentence_bbox_10_image_y,ans3_text_sentence_bbox_1_x1,ans3_text_sentence_bbox_1_y1,ans3_text_sentence_bbox_1_x2,ans3_text_sentence_bbox_1_y2,ans3_text_sentence_bbox_1_page,ans3_text_sentence_bbox_1_image_x,ans3_text_sentence_bbox_1_image_y,ans3_text_sentence_bbox_2_x1,ans3_text_sentence_bbox_2_y1,ans3_text_sentence_bbox_2_x2,ans3_text_sentence_bbox_2_y2,ans3_text_sentence_bbox_2_page,ans3_text_sentence_bbox_2_image_x,ans3_text_sentence_bbox_2_image_y,ans3_text_sentence_bbox_3_x1,ans3_text_sentence_bbox_3_y1,ans3_text_sentence_bbox_3_x2,ans3_text_sentence_bbox_3_y2,ans3_text_sentence_bbox_3_page,ans3_text_sentence_bbox_3_image_x,ans3_text_sentence_bbox_3_image_y,ans3_text_sentence_bbox_4_x1,ans3_text_sentence_bbox_4_y1,ans3_text_sentence_bbox_4_x2,ans3_text_sentence_bbox_4_y2,ans3_text_sentence_bbox_4_page,ans3_text_sentence_bbox_4_image_x,ans3_text_sentence_bbox_4_image_y,ans3_text_sentence_bbox_5_x1,ans3_text_sentence_bbox_5_y1,ans3_text_sentence_bbox_5_x2,ans3_text_sentence_bbox_5_y2,ans3_text_sentence_bbox_5_page,ans3_text_sentence_bbox_5_image_x,ans3_text_sentence_bbox_5_image_y,ans3_text_sentence_bbox_6_x1,ans3_text_sentence_bbox_6_y1,ans3_text_sentence_bbox_6_x2,ans3_text_sentence_bbox_6_y2,ans3_text_sentence_bbox_6_page,ans3_text_sentence_bbox_6_image_x,ans3_text_sentence_bbox_6_image_y,ans3_text_sentence_bbox_7_x1,ans3_text_sentence_bbox_7_y1,ans3_text_sentence_bbox_7_x2,ans3_text_sentence_bbox_7_y2,ans3_text_sentence_bbox_7_page,ans3_text_sentence_bbox_7_image_x,ans3_text_sentence_bbox_7_image_y,ans3_text_sentence_bbox_8_x1,ans3_text_sentence_bbox_8_y1,ans3_text_sentence_bbox_8_x2,ans3_text_sentence_bbox_8_y2,ans3_text_sentence_bbox_8_page,ans3_text_sentence_bbox_8_image_x,ans3_text_sentence_bbox_8_image_y,ans3_text_sentence_bbox_9_x1,ans3_text_sentence_bbox_9_y1,ans3_text_sentence_bbox_9_x2,ans3_text_sentence_bbox_9_y2,ans3_text_sentence_bbox_9_page,ans3_text_sentence_bbox_9_image_x,ans3_text_sentence_bbox_9_image_y,ans3_text_sentence_bbox_10_x1,ans3_text_sentence_bbox_10_y1,ans3_text_sentence_bbox_10_x2,ans3_text_sentence_bbox_10_y2,ans3_text_sentence_bbox_10_page,ans3_text_sentence_bbox_10_image_x,ans3_text_sentence_bbox_10_image_y,ans4_text_sentence_bbox_1_x1,ans4_text_sentence_bbox_1_y1,ans4_text_sentence_bbox_1_x2,ans4_text_sentence_bbox_1_y2,ans4_text_sentence_bbox_1_page,ans4_text_sentence_bbox_1_image_x,ans4_text_sentence_bbox_1_image_y,ans4_text_sentence_bbox_2_x1,ans4_text_sentence_bbox_2_y1,ans4_text_sentence_bbox_2_x2,ans4_text_sentence_bbox_2_y2,ans4_text_sentence_bbox_2_page,ans4_text_sentence_bbox_2_image_x,ans4_text_sentence_bbox_2_image_y,ans4_text_sentence_bbox_3_x1,ans4_text_sentence_bbox_3_y1,ans4_text_sentence_bbox_3_x2,ans4_text_sentence_bbox_3_y2,ans4_text_sentence_bbox_3_page,ans4_text_sentence_bbox_3_image_x,ans4_text_sentence_bbox_3_image_y,ans4_text_sentence_bbox_4_x1,ans4_text_sentence_bbox_4_y1,ans4_text_sentence_bbox_4_x2,ans4_text_sentence_bbox_4_y2,ans4_text_sentence_bbox_4_page,ans4_text_sentence_bbox_4_image_x,ans4_text_sentence_bbox_4_image_y,ans4_text_sentence_bbox_5_x1,ans4_text_sentence_bbox_5_y1,ans4_text_sentence_bbox_5_x2,ans4_text_sentence_bbox_5_y2,ans4_text_sentence_bbox_5_page,ans4_text_sentence_bbox_5_image_x,ans4_text_sentence_bbox_5_image_y,ans4_text_sentence_bbox_6_x1,ans4_text_sentence_bbox_6_y1,ans4_text_sentence_bbox_6_x2,ans4_text_sentence_bbox_6_y2,ans4_text_sentence_bbox_6_page,ans4_text_sentence_bbox_6_image_x,ans4_text_sentence_bbox_6_image_y,ans4_text_sentence_bbox_7_x1,ans4_text_sentence_bbox_7_y1,ans4_text_sentence_bbox_7_x2,ans4_text_sentence_bbox_7_y2,ans4_text_sentence_bbox_7_page,ans4_text_sentence_bbox_7_image_x,ans4_text_sentence_bbox_7_image_y,ans4_text_sentence_bbox_8_x1,ans4_text_sentence_bbox_8_y1,ans4_text_sentence_bbox_8_x2,ans4_text_sentence_bbox_8_y2,ans4_text_sentence_bbox_8_page,ans4_text_sentence_bbox_8_image_x,ans4_text_sentence_bbox_8_image_y,ans4_text_sentence_bbox_9_x1,ans4_text_sentence_bbox_9_y1,ans4_text_sentence_bbox_9_x2,ans4_text_sentence_bbox_9_y2,ans4_text_sentence_bbox_9_page,ans4_text_sentence_bbox_9_image_x,ans4_text_sentence_bbox_9_image_y,ans4_text_sentence_bbox_10_x1,ans4_text_sentence_bbox_10_y1,ans4_text_sentence_bbox_10_x2,ans4_text_sentence_bbox_10_y2,ans4_text_sentence_bbox_10_page,ans4_text_sentence_bbox_10_image_x,ans4_text_sentence_bbox_10_image_y,ans5_text_sentence_bbox_1_x1,ans5_text_sentence_bbox_1_y1,ans5_text_sentence_bbox_1_x2,ans5_text_sentence_bbox_1_y2,ans5_text_sentence_bbox_1_page,ans5_text_sentence_bbox_1_image_x,ans5_text_sentence_bbox_1_image_y,ans5_text_sentence_bbox_2_x1,ans5_text_sentence_bbox_2_y1,ans5_text_sentence_bbox_2_x2,ans5_text_sentence_bbox_2_y2,ans5_text_sentence_bbox_2_page,ans5_text_sentence_bbox_2_image_x,ans5_text_sentence_bbox_2_image_y,ans5_text_sentence_bbox_3_x1,ans5_text_sentence_bbox_3_y1,ans5_text_sentence_bbox_3_x2,ans5_text_sentence_bbox_3_y2,ans5_text_sentence_bbox_3_page,ans5_text_sentence_bbox_3_image_x,ans5_text_sentence_bbox_3_image_y,ans5_text_sentence_bbox_4_x1,ans5_text_sentence_bbox_4_y1,ans5_text_sentence_bbox_4_x2,ans5_text_sentence_bbox_4_y2,ans5_text_sentence_bbox_4_page,ans5_text_sentence_bbox_4_image_x,ans5_text_sentence_bbox_4_image_y,ans5_text_sentence_bbox_5_x1,ans5_text_sentence_bbox_5_y1,ans5_text_sentence_bbox_5_x2,ans5_text_sentence_bbox_5_y2,ans5_text_sentence_bbox_5_page,ans5_text_sentence_bbox_5_image_x,ans5_text_sentence_bbox_5_image_y,ans5_text_sentence_bbox_6_x1,ans5_text_sentence_bbox_6_y1,ans5_text_sentence_bbox_6_x2,ans5_text_sentence_bbox_6_y2,ans5_text_sentence_bbox_6_page,ans5_text_sentence_bbox_6_image_x,ans5_text_sentence_bbox_6_image_y,ans5_text_sentence_bbox_7_x1,ans5_text_sentence_bbox_7_y1,ans5_text_sentence_bbox_7_x2,ans5_text_sentence_bbox_7_y2,ans5_text_sentence_bbox_7_page,ans5_text_sentence_bbox_7_image_x,ans5_text_sentence_bbox_7_image_y,ans5_text_sentence_bbox_8_x1,ans5_text_sentence_bbox_8_y1,ans5_text_sentence_bbox_8_x2,ans5_text_sentence_bbox_8_y2,ans5_text_sentence_bbox_8_page,ans5_text_sentence_bbox_8_image_x,ans5_text_sentence_bbox_8_image_y,ans5_text_sentence_bbox_9_x1,ans5_text_sentence_bbox_9_y1,ans5_text_sentence_bbox_9_x2,ans5_text_sentence_bbox_9_y2,ans5_text_sentence_bbox_9_page,ans5_text_sentence_bbox_9_image_x,ans5_text_sentence_bbox_9_image_y,ans5_text_sentence_bbox_10_x1,ans5_text_sentence_bbox_10_y1,ans5_text_sentence_bbox_10_x2,ans5_text_sentence_bbox_10_y2,ans5_text_sentence_bbox_10_page,ans5_text_sentence_bbox_10_image_x,ans5_text_sentence_bbox_10_image_y,best_2_text,best_2_content_id,best_2_image_page,best_2_aic,best_2_content_display_name,best_2_content_group,best_2_score,best_2_url,best_2_page,best_3_text,best_3_content_id,best_3_image_page,best_3_aic,best_3_content_display_name,best_3_content_group,best_3_score,best_3_url,best_3_page,best_4_text,best_4_content_id,best_4_image_page,best_4_aic,best_4_content_display_name,best_4_content_group,best_4_score,best_4_url,best_4_page,best_5_text,best_5_content_id,best_5_image_page,best_5_aic,best_5_content_display_name,best_5_content_group,best_5_score,best_5_url,best_5_page
+2024-02-26T17:32:10.539422Z,2756,5421e952-d677-4e13-9717-f1b842b5e452,What is the minimum baseline level of LDL-C or non-HDL cholesterol for optimizing Repatha efficacy?,c61baf5a-fdcf-4153-b54b-9085fdde8c38,Median baseline LDL-C for enrolled patients was 92 mg/dL1,50101f05-da15-46a4-b24d-505d3dab8e70,14,"  
+WHO  is this for?  
+PCPs only.
+WHEN should this email be sent? 
+Choose the appropriate combination of opening and 
+closing lines to: 
+• Schedule a meeting 
+•  Follow up on a discussion or after a period of silence
+•  Educate a customer on using Repatha® after 
+revascularization procedures
+DESKTOP VERSION
+Variable Field A: Salutation Options 
+[1.] [Dear] 
+[2.] [Hello,] 
+[3.] [Greetings,] 
+[4.] [Good morning,] 
+A
+B
+[Dear] [Dr.] [First Name] [Last Name]: 
+[Dear] [Dr.] [First Name] [Last Name]: 
+[5.] [Good afternoon,] 
+C
+ 
+[I hope you are doing well. I wanted to share some important information about Repatha® 
+[I hope you are doing well. I wanted to share some important information about Repatha
+[6.] [Good evening,] 
+[7.] [ ]  
+D
+and its ability to provide dramatic LDL-C reduction for your patients with PCI that remain 
+at risk.]1-3
+and its ability to provide dramatic LDL-C reduction for your patients with PCI that remain 
+at risk.]
+1-3
+IMPORTANT SAFETY INFORMATION 
+IMPORTANT SAFETY INFORMATION 
+Variable Field B: Prefix Options 
+Contraindication: Repatha® is contraindicated in patients with a history of a 
+Contraindication:
+Repatha
+ is contraindicated in patients with a history of a 
+[1.] [Dr.] 
+Repatha®. Serious hypersensitivity reactions including angioedema have 
+serious hypersensitivity reaction to evolocumab or any of the excipients in 
+serious hypersensitivity reaction to evolocumab or any of the excipients in 
+Repatha
+. Serious hypersensitivity reactions including angioedema have 
+[2.] [Mr.] 
+occurred in patients treated with Repatha®.
+occurred in patients treated with Repatha
+.
+[3.] [Mrs.] 
+See additional Important Safety Information below.
+See additional Important Safety Information below.
+[4.] [Ms.] 
+[5.] [ ] 
+Patients with PCI may remain at risk 
+when their LDL-C is 70 mg/dL or above2
+Variable Field C: Prefix Options 
+[1.] [Last Name] 
+[2.] [First Name] 
+Higher LDL-C after PCI is associated with a 
+higher risk of coronary revascularization2
+[3.] [First Name Last Name] 
+Rate of coronary revascularization by LDL-C levels in PCI patients2 
+(N = 47,884)
+Variable Field D: Intro Options 
+[1.] I hope you are doing well. I wanted to 
+share some important information about 
+<70
+41.0
+Repatha® and its ability to help provide the 
+effective LDL-C management that is 
+necessary for your patients with PCI.(1-3)  
+[2.] Thank you for taking the time to speak 
+with me. As a follow-up to our discussion, 
+here is the information we reviewed that 
+demonstrated the ability of Repatha® to help 
+provide the effective LDL-C management 
+)
+L
+d
+/
+g
+m
+(
+ 
+s
+l
+e
+v
+e
+l
+ 
+C
+-
+L
+D
+L
+70 to 
+<100
+46.8
+of coronary 
+PCI patients with 
+had higher rates  
+revascularization
+LDL-C ≥70 mg/dL 
+that may be missing for your patients with 
+PCI.(1-3)  
+≥100
+70.9
+[3.] I look forward to speaking with you 
+about the demonstrated efficacy of 
+Repatha®. You might be particularly 
+interested in the important data on the 
+ability of Repatha® to help provide the 
+0
+50
+100
+effective LDL-C management that is 
+necessary for your patients with PCI.(1-3)
+ 
+• 
+Based on CorHealth Ontario clinical cardiac registry. Ontario residents undergoing PCI 
+Per 1,000 person-years
+procedures between October 1, 2011 and September 30, 20142 
+• 
+Baseline characteristics: median age 63 years; 27% women; 62% had ACS at time of their 
+index PCI2 
+• 
+Median follow-up time for CV events: 3.2 years2 
+More than 60% of ASCVD patients had LDL-C 
+levels >70 mg/dL following index PCI/CABG4
+Based on data from IQVIA PharMetrics+/Longitudinal Rx/Prognos lab linked databases. 
+Based on data from IQVIA PharMetrics+/Longitudinal Rx/Prognos lab linked databases. 
+Patients ≥18 years of age undergoing CABG or PCI were identified between January 2014 
+Patients ≥18 years of age undergoing CABG or PCI were identified between January 2014 
+and May 2019 (N=3,125). 
+and May 2019 (N=3,125). 
+Repatha® has the ability to help lower 
+LDL-C for your patients with PCI
+Repatha® added to a statin was evaluated in established 
+CVD patients who remained at risk despite high- or 
+moderate-intensity statin therapy1
+Patient population
+Patient population
+≥40 to ≤85 years old5 
+≥40 to ≤85 years old
+5 
+81% of patients already experienced ≥1 MI1 
+81% of patients already experienced ≥1 MI
+1 
+Median baseline LDL-C for enrolled patients was 92 mg/dL1 
+Median baseline LDL-C for enrolled patients was 92 mg/dL
+1 
+Patients were treated with other CV medications1 
+Patients were treated with other CV medications
+1 
+– Antiplatelet agents (93%) 
+– Antiplatelet agents (93%) 
+– ACE inhibitor (56%) 
+– ACE inhibitor (56%) 
+– Beta-blockers (76%) 
+– Beta-blockers (76%) 
+– ARB (23%)
+– ARB (23%)
+Repatha® was evaluated in a double-blind, randomized, placebo-controlled, event-driven 
+Repatha
+ was evaluated in a double-blind, randomized, placebo-controlled, event-driven 
+trial that included 27,564 patients with established CVD and LDL-C ≥70 mg/dL and/or 
+trial that included 27,564 patients with established CVD and LDL-C ≥70 mg/dL and/or 
+non–HDL-C ≥100 mg/dL despite high- to moderate-intensity statin therapy.1
+non–HDL-C ≥100 mg/dL despite high- to moderate-intensity statin therapy.
+1
+Count on Repatha® for your patients who 
+Count on Repatha
+ for your patients who 
+need more to achieve AHA/ACC Guideline-
+need more to achieve AHA/ACC Guideline-
+recommended LDL-C <70 mg/dL1,6
+recommended LDL-C <70 mg/dL
+1,6
+Adding Repatha® to a statin can dramatically lower LDL-C in  
+Adding Repatha
+ to a statin can dramatically lower LDL-C in  
+just 
+just 4 weeks5
+4 weeks
+5
+Repatha® + statin 
+Repatha
+ + statin 
+lowered LDL-C by 
+lowered LDL-C by 
+an average of 
+an average of 
+63%
+in 12 weeks1
+in 12 weeks
+1
+87%
+of patients achieved LDL-C 
+of patients achieved LDL-C 
+≤70 mg/dL at 48 weeks5
+≤70 mg/dL at 48 weeks
+5
+Add Repatha® now to provide sustained LDL-C reductions1
+Add Repatha
+ now to provide sustained LDL-C reductions
+1
+Your patients with PCI count on PCPs 
+like you
+Physicians that 
+lowering therapies7,*
+prescribed lipid-
+66
+%
+PCP
+CABG-PCI-UA 
+PATIENTS TREATED
+BY PCP†
+4
+%
+30
+%
+Others
+Cardiologist
+*
+Lipid-lowering therapies include Altoprev®, Atorvastatin, Crestor®, Ezetimibe, Ezetimibe/Simvastatin, Fluvastatin, 
+Lescol®, Lipitor®, Liptruzet®, Livalo®, Lovastatin, Mevacor®, Nexletol®, Nexlizet®, Niacin, Niaspan®, Praluent®, 
+Pravastatin, Repatha®, Rosuvastatin, Simvastatin, Vascepa®, Vytorin®, Welchol®, Zetia®, Zocor®.7
+† Based on a retrospective study of claims from the IQVIA LAAD database from November 2019 to October 2020, 
+which included claims from patients with a history of CABG, PCI, or UA.7 
+Learn about coverage for patients on Repatha®
+Learn about coverage for patients on Repatha
+INDICATIONS 
+INDICATIONS 
+Repatha® is indicated: 
+Repatha
+ is indicated: 
+• In adults with established cardiovascular disease to reduce the risk of 
+In adults with established cardiovascular disease to reduce the risk of 
+myocardial infarction, stroke, and coronary revascularization 
+myocardial infarction, stroke, and coronary revascularization 
+• As an adjunct to diet, alone or in combination with other low-density 
+As an adjunct to diet, alone or in combination with other low-density 
+lipoprotein cholesterol (LDL-C)-lowering therapies, in adults with primary 
+lipoprotein cholesterol (LDL-C)-lowering therapies, in adults with primary 
+hyperlipidemia, including heterozygous familial hypercholesterolemia (HeFH) 
+hyperlipidemia, including heterozygous familial hypercholesterolemia (HeFH) 
+to reduce LDL-C 
+to reduce LDL-C
+IMPORTANT SAFETY INFORMATION (Continued) 
+IMPORTANT SAFETY INFORMATION (Continued) 
+Hypersensitivity Reactions: Hypersensitivity reactions, including 
+Hypersensitivity Reactions:
+ Hypersensitivity reactions, including 
+angioedema, have been reported in patients treated with Repatha®. If signs or 
+angioedema, have been reported in patients treated with Repatha
+. If signs or 
+symptoms of serious hypersensitivity reactions occur, discontinue treatment 
+symptoms of serious hypersensitivity reactions occur, discontinue treatment 
+with Repatha®, treat according to the standard of care, and monitor until signs 
+with Repatha
+, treat according to the standard of care, and monitor until signs 
+and symptoms resolve.  
+and symptoms resolve.  
+Adverse Reactions in Primary Hyperlipidemia:
+Adverse Reactions in Primary Hyperlipidemia: The most common adverse 
+ The most common adverse 
+reactions (>5% of patients treated with Repatha
+reactions (>5% of patients treated with Repatha® and more frequently than 
+ and more frequently than 
+placebo) were: nasopharyngitis, upper respiratory tract infection, influenza, 
+placebo) were: nasopharyngitis, upper respiratory tract infection, influenza, 
+Variable Field E: Closing Line Options 
+back pain, and injection site reactions.   
+From a pool of the 52-week trial and seven 12-week trials: Local injection site 
+back pain, and injection site reactions.   
+From a pool of the 52-week trial and seven 12-week trials: Local injection site 
+[1.] You can do more for your patients with 
+reactions occurred in 3.2% and 3.0% of Repatha
+reactions occurred in 3.2% and 3.0% of Repatha®-treated and placebo-treated 
+-treated and placebo-treated 
+PCI—prescribe Repatha® to help lower their 
+LDL-C levels to reduce the risk of another 
+coronary revascularization.(1-3)  
+most common hypersensitivity reactions were rash (1.0% versus 0.5% for 
+patients, respectively. The most common injection site reactions were 
+erythema, pain, and bruising. Hypersensitivity reactions occurred in 5.1% and 
+4.7% of Repatha
+most common hypersensitivity reactions were rash (1.0% versus 0.5% for 
+patients, respectively. The most common injection site reactions were 
+erythema, pain, and bruising. Hypersensitivity reactions occurred in 5.1% and 
+4.7% of Repatha®-treated and placebo-treated patients, respectively. The 
+-treated and placebo-treated patients, respectively. The 
+I’m happy to connect with you and answer 
+Repatha® and placebo, respectively), eczema (0.4% versus 0.2%), erythema 
+Repatha
+(0.4% versus 0.2%), and urticaria (0.4% versus 0.1%). 
+(0.4% versus 0.2%), and urticaria (0.4% versus 0.1%). 
+ and placebo, respectively), eczema (0.4% versus 0.2%), erythema 
+any questions you may have about 
+identifying patients appropriate for Repatha®, 
+Repatha® affordability, or the availability of 
+frequently than placebo) were: diabetes mellitus (8.8% Repatha®, 8.2% 
+Adverse Reactions in the Cardiovascular Outcomes Trial: The most 
+Adverse Reactions in the Cardiovascular Outcomes Trial:
+common adverse reactions (>5% of patients treated with Repatha® and more 
+common adverse reactions (>5% of patients treated with Repatha
+frequently than placebo) were: diabetes mellitus (8.8% Repatha
+ The most 
+, 8.2% 
+ and more 
+useful online resources for both you and 
+placebo), nasopharyngitis (7.8% Repatha®, 7.4% placebo), and upper 
+placebo), nasopharyngitis (7.8% Repatha
+, 7.4% placebo), and upper 
+your patients, 
+respiratory tract infection (5.1% Repatha®, 4.8% placebo).     
+respiratory tract infection (5.1% Repatha
+, 4.8% placebo).     
+Please let me know when you would be 
+available to talk. 
+Among the 16,676 patients without diabetes mellitus at baseline, the incidence 
+of new-onset diabetes mellitus during the trial was 8.1% in patients treated 
+with Repatha® compared with 7.7% in patients that received placebo.   
+Among the 16,676 patients without diabetes mellitus at baseline, the incidence 
+of new-onset diabetes mellitus during the trial was 8.1% in patients treated 
+with Repatha
+ compared with 7.7% in patients that received placebo.   
+ 
+Immunogenicity: 
+Immunogenicity: Repatha® is a human monoclonal antibody. As with all 
+Repatha
+ is a human monoclonal antibody. As with all 
+therapeutic proteins, there is potential for immunogenicity with Repatha®. 
+therapeutic proteins, there is potential for immunogenicity with Repatha
+. 
+[2.] I hope you found our data useful 
+regarding the benefits Repatha® provides in 
+Please see full Prescribing Information.
+Please see full Prescribing Information.
+lowering LDL-C The next time we meet, I’d 
+like to share how Repatha® provides LDL-C 
+lowering that could help reduce the risk of 
+another coronary revascularization for your 
+patients.(1-3) 
+E
+[I hope you found our data useful regarding the benefits Repatha® provides in lowering 
+[I hope you found our data useful regarding the benefits Repatha
+LDL-C and the impact that will have for your PCI patients.(1-3)  
+LDL-C and the impact that will have for your PCI patients.(1-3)  
+ 
+I’m happy to connect with you and answer any questions you may have about 
+I’m happy to connect with you and answer any questions you may have about 
+ provides in lowering 
+Repatha® affordability, and to further discuss 
+I’m available to connect with you to answer 
+any questions you may have regarding 
+identifying patients appropriate for Repatha®, 
+useful online resources for both you and your patients. 
+ 
+Please let me know when you would be available to talk.] 
+ 
+identifying patients appropriate for Repatha
+useful online resources for both you and your patients. 
+Please let me know when you would be available to talk.] 
+identifying patients appropriate for Repatha®, Repatha® affordability, or the availability of 
+, Repatha
+ affordability, or the availability of 
+how Repatha® can help reduce the risk of 
+F
+[Sincerely,] 
+[Sincerely,] 
+another coronary revascularization for your 
+ 
+patients.  
+[Rep name]  
+[Rep email] 
+[Rep name]  
+[Rep email] 
+I’ve included my contact info below, so 
+please feel free to reach out to me directly.
+[Rep phone number]
+[Rep phone number]
+G
+Variable Field G:  
+Variable Field F: Sign Off Options 
+[1.] Sincerely, 
+ACE = angiotensin-converting enzyme; ACS = acute coronary syndrome; AHA/ACC = American Heart 
+Association/American College of Cardiology; ARB = angiotensin II receptor blocker; CABG = coronary artery 
+bypass graft; CV = cardiovascular; CVD = cardiovascular disease; HDL-C = high-density lipoprotein 
+Rep Photo -  
+120x160px
+[2.] Respectfully, 
+coronary intervention; UA = unstable angina.
+cholesterol; LDL-C = low-density lipoprotein cholesterol; MI = myocardial infarction; PCI = percutaneous 
+[3.] Looking forward to hearing from you,
+References: 1. Repatha® (evolocumab) prescribing information, Amgen. 2. Sud M, Han L, Koh M, et al. 
+References: 1.
+ Repatha
+ (evolocumab) prescribing information, Amgen. 
+2.
+ Sud M, Han L, Koh M, et al. 
+Low-density lipoprotein cholesterol and adverse cardiovascular events after percutaneous coronary 
+Low-density lipoprotein cholesterol and adverse cardiovascular events after percutaneous coronary 
+intervention. J Am Coll Cardiol. 2020;76:1440-1450. 3. Furtado RH, Fagundes AA, Oyama K, et al. 
+intervention. 
+J Am Coll Cardiol.
+ 2020;76:1440-1450. 
+3. 
+Furtado RH, Fagundes AA, Oyama K, et al. 
+Effects of evolocumab in patients with prior percutaneous coronary intervention: an analysis from the 
+Effects of evolocumab in patients with prior percutaneous coronary intervention: an analysis from the 
+Fourier trial. Poster presented at: American Heart Association Scientific Sessions 2020; November 13-17, 
+Fourier trial. Poster presented at: American Heart Association Scientific Sessions 2020; November 13-17, 
+2020. 4. Cavender MA, Rane PB, Nunna S, et al. Lipid-lowering treatment patterns and risk of 
+2020. 
+4. 
+Cavender MA, Rane PB, Nunna S, et al. Lipid-lowering treatment patterns and risk of 
+subsequent cardiovascular outcomes among patients with a recent coronary revascularization. Poster 
+subsequent cardiovascular outcomes among patients with a recent coronary revascularization. Poster 
+presented at: American College of Cardiology 20 together with World Congress of Cardiology; March 28, 
+presented at: American College of Cardiology 20 together with World Congress of Cardiology; March 28, 
+2020; Chicago, IL. 5. Sabatine MS, Giugliano RP, Keech AC, et al; FOURIER Steering Committee and 
+2020; Chicago, IL. 
+5. 
+Sabatine MS, Giugliano RP, Keech AC, et al; FOURIER Steering Committee and 
+Investigators. Evolocumab and clinical outcomes in patients with cardiovascular disease. N Engl J Med. 
+Investigators. Evolocumab and clinical outcomes in patients with cardiovascular disease. 
+N Engl J Med. 
+2017;376:1713-1722. 6. Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/
+2017;376:1713-1722. 
+6. 
+Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/AACVPR/AAPA/ABC/
+ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of 
+ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of 
+the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. 
+the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. 
+J Am Coll Cardiol. 2019;73:e285-e350. 7. Data on file, Amgen; 2021.
+J Am Coll Cardiol. 
+2019;73:e285-e350. 
+7.
+ Data on file, Amgen; 2021.",amgen-s3-gco-document-search/General/field_rep_ai/Rep Triggered Email Guide (Repatha).pdf,Field Rep AI,0.5718,https://amgen-s3-gco-document-search.s3.us-west-2.amazonaws.com/General/field_rep_ai/Rep%20Triggered%20Email%20Guide%20(Repatha).pdf,14,324.18,1370.52,470.36,1375.65,14,864.00,2764.00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,432.00,1708.00,1207.00,1737.00,5,2550.00,3301.00,231.00,1756.00,1224.00,1784.00,5,2550.00,3301.00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72.02,124.21,530.26,135.25,12,612.00,792.00,72.02,136.81,540.46,147.85,12,612.00,792.00,72.02,149.41,534.06,160.45,12,612.00,792.00,72.02,162.13,107.78,173.17,12,612.00,792.00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,378.46,432.09,983.05,442.20,4,1024.00,768.00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1731.00,1042.00,2301.00,1085.00,33,2481.00,3308.00,1302.00,1100.00,2299.00,1135.00,33,2481.00,3308.00,1303.00,1142.00,2301.00,1176.00,33,2481.00,3308.00,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ratio 3.2 (1.1) oa (2.5-3.8)
+Non-HDL cholesterol, mg/dL 160.9 (40.2) 157 (134- -181)",4486d12d-132b-40cc-8992-0e6358a08f73,5,"the greatest disease severity.
+For the prespecified secondary effi-
+cacy parameter, normalized TAV, the
+mean (SD) change was -14.7 (25.7)
+mm?, with a median change of -12.5
+mm? (95% CI, -15.1 to -10.5 mm’)
+(P<.001 compared with baseline). This
+
+progression.
+TABLE 4 shows the results for the pri-
+mary end points for prespecified sub-
+groups. There was no significant het-
+erogeneity in the response to treatment
+for either of the 2 primary efficacy pa-
+
+Table 2. Laboratory Results (n 346)*
+Baseline
+Mean (SD) Median (IQR)
+Total | cholesterol, mg/dL 204 (41.2) 197 (179-224)
+LDL-C, mg/dL 130.4 (34.3) 127 (109-148)
+HDL -C, mg/dL 43.1 (11.1) 41 (35-49)
+Triglycerides, mg/dL 152.2 (81.7) 1385 (97-187)
+Apolipoprotein Broo, mg/dL 127.9 (29.2) 125 (107-144)
+Apolipoprotein A-1 138.6 (27.1) 135 (119-158)
+Apolipoprotein B/A- A ratio 0.95 (0.27) 0.93 (0.75-1.12)
+LDL-C/HDL-C | ratio 3.2 (1.1) oa (2.5-3.8)
+Non-HDL cholesterol, mg/dL 160.9 (40.2) 157 (134- -181)
+During Treatment
+Mean (SD) Median (IQR)
+133.8 (25.4) 130 (116-148)
+60.8 (20.0) 58 (47-72)
+49.0 (12.6) 47 (41-54)
+7212 (56.8) 109 (84-144)
+74.5 (22.3) 72 (58-85)
+150.2 (31.3) 148 (129-164)
+0.51 (0.17) 0.49 (0.39- -0.62)
+1.3 (0.5) 1.3 (0.9-1.6)
+84.8 (23.2) 81 (69-97)
+Percent Change, Mean
+Least-Square (95%
+Cl)t
+-33.8 (- 35.6 to -31.9)
+-58.2 (-55.6 | to —50.9)
++14.7 (12.3 to 17.1)
+-14.5 (-19.4 to —9.6)
+41.5 (- 43,7 1 to -39.3)
++8.9 65. | to 11.3)
+-45.6 (-47.7° to —43.5)
+—58.5 (-60.7 to —56.2)
+47.2 ¢ | 49.4 to -45.1)",amgen-s3-gco-document-search/General/field_rep_ai/ASTEROID.pdf,Field Rep AI,0.5711,https://amgen-s3-gco-document-search.s3.us-west-2.amazonaws.com/General/field_rep_ai/ASTEROID.pdf,5,"Study 1 (FOURIER, NCT01764633) was a double-blind, randomized, placebo-controlled, event-driven 
+trial in 27,564 (13,784 REPATHA, 13,780 placebo) adult patients with established cardiovascular disease 
+and with LDL-C ≥ 70 mg/dL and/or non-HDL-C ≥ 100 mg/dL despite high- or moderate-intensity statin 
+therapy.",b75013dc-3bb1-48e3-8c2e-425be6ba5daf,12,"Study 1 (FOURIER, NCT01764633) was a double-blind, randomized, placebo-controlled, event-driven 
+trial in 27,564 (13,784 REPATHA, 13,780 placebo) adult patients with established cardiovascular disease 
+and with LDL-C ≥ 70 mg/dL and/or non-HDL-C ≥ 100 mg/dL despite high- or moderate-intensity statin 
+therapy. Patients were randomly assigned 1:1 to receive either subcutaneous injections of REPATHA 
+(140 mg every 2 weeks or 420 mg once monthly) or placebo; 86% used the every-2-week regimen 
+throughout the trial. The median follow-up duration was 26 months. Overall, 99.2% of patients were 
+followed until the end of the trial or death. 
+
+The mean (SD) age at baseline was 63 (9) years, with 45% being at least 65 years old; 25% were women. 
+The trial population was 85% White, 2% Black, and 10% Asian; 8% identified as Hispanic ethnicity. 
+Regarding prior diagnoses of cardiovascular disease, 81% had prior myocardial infarction, 19% prior 
+non-hemorrhagic stroke, and 13% had symptomatic peripheral arterial disease. Selected additional 
+baseline risk factors included hypertension (80%), diabetes mellitus (1% type 1; 36% type 2), current 
+daily cigarette smoking (28%), New York Heart Association class I or II congestive heart failure (23%), 
+and eGFR < 60 mL/min per 1.73 m2 (6%). Most patients were on a high- (69%) or moderate-intensity 
+(30%) statin therapy at baseline, and 5% were also taking ezetimibe. Most patients were taking at least 
+one other cardiovascular medication including anti-platelet agents (93%), beta blockers (76%), 
+angiotensin converting enzyme (ACE) inhibitors (56%), or angiotensin receptor blockers (23%). On 
+stable background lipid-lowering therapy, the median [Q1, Q3] LDL-C at baseline was 
+92 [80, 109] mg/dL; the mean (SD) was 98 (28) mg/dL. ",amgen-s3-gco-document-search/General/public_docs/repatha_pi_hcp_english.pdf,General Public Docs,0.5706,https://amgen-s3-gco-document-search.s3.us-west-2.amazonaws.com/General/public_docs/repatha_pi_hcp_english.pdf,12,"If on a clinically judged maximal LDL–C-lowering therapy and LDL-C ≥70 mg/dL, or non-HDL-C ≥100 mg/dL, adding a PCSK9 inhibitor is reasonable.",394f71cc-4d28-43ed-ab45-aa87aeb9332f,4,"For very high-risk* patients who have suffered a recent MI,
+
+ACC/AHA guidelines consider an LDL-C of 70 mg/dL or greater as the threshold to trigger action and recommend the addition  
+of a PCSK9 inhibitor like Repatha® to further lower LDL-C and future CV risk.6†
+
+THE TIME TO DO MORE IS NOW.
+ADD REPATHA® today to help prevent a future MI.1
+
+*Very high risk includes a history of multiple major ASCVD events or 1 major ASCVD event and multiple high-risk conditions.6
+† Class I: Add ezetimibe to maximal statin before adding a PCSK9 inhibitor; Class IIa: If on a clinically judged maximal LDL–C-lowering therapy and LDL-C ≥70 mg/dL, or non-HDL-C ≥100 mg/dL, adding a PCSK9 inhibitor is reasonable.6
+
+Important Safety Information
+
+Immunogenicity: Repatha® is a human monoclonal antibody. As with all therapeutic proteins, there is potential for immunogenicity with Repatha®.
+
+ACC /AHA=American College of Cardiology/American Heart Association; ARR=absolute risk reduction; ASCVD=atherosclerotic cardiovascular disease; CI=confidence interval; CV=cardiovascular; CVD=cardiovascular 
+disease; HDL-C=high-density lipoprotein cholesterol; HR=hazard ratio; KM=Kaplan-Meier; LDL-C=low-density lipoprotein cholesterol; MI=myocardial infarction; PCSK9=proprotein convertase subtilisin/kexin type 9; 
+RRR=relative risk reduction.
+
+References: 1. Gencer B, Mach F, Murphy SA, et al. Evolocumab and cardiovascular outcomes in patients with recent myocardial infarction: analysis from FOURIER. Poster presented at: American Heart Association 
+Scientific Sessions; November 16-18, 2019; Philadelphia, PA. 2. Sabatine MS, Giugliano RP, Keech AC, et al; for FOURIER Steering Committee and Investigators. Evolocumab and clinical outcomes in patients with 
+cardiovascular disease. N Engl J Med. 2017;376:1713-1722. 3. Repatha® (evolocumab) prescribing information, Amgen. 4. Wang Y, Li J, Zheng X, et al. Risk factors associated with major cardiovascular events 1 year 
+after acute myocardial infarction. JAMA Netw Open. 2018;1:e181079. doi:10.1001/jamanetworkopen.2018.1079 5. Jernberg T, Hasvold P, Henriksson M, Hjelm H, Thuresson M, Janzon M. Cardiovascular risk in 
+post-myocardial infarction patients: nationwide real world data demonstrate the importance of a long-term perspective. Eur Heart J. 2015;36:1163-1170. 6. Grundy SM, Stone NJ, Bailey AL, et al. 2018 AHA/ACC/
+AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA guideline on the management of blood cholesterol: a report of the American College of Cardiology/American Heart Association Task Force on Clinical 
+Practice Guidelines. J Am Coll Cardiol. 2018: https://doi.org/10.1016/j.jacc.2018.11.003.",amgen-s3-gco-document-search/General/field_rep_ai/Latest FOURIER sub-analysis Recent MI.pdf,Field Rep AI,0.5512,https://amgen-s3-gco-document-search.s3.us-west-2.amazonaws.com/General/field_rep_ai/Latest%20FOURIER%20sub-analysis%20Recent%20MI.pdf,4,"The treatment goal is an LDL-C con-
+centration of < 1.8 mmol/L (<70 mg/dL) or at least 50% reduction
+in LDL-C if the baseline LDL-C level is 1.8-3.5 mmol/L.",fe762595-ae95-410d-8241-fb6586894970,33,"of early and intensive statin therapy in ACS.°°*°°° A meta-analysis
+of trials comparing more- vs. less-intensive LDL-C lowering with
+statins indicated that more-intensive statin therapy produced
+greater reductions in the risks of cardiovascular death, non-fatal
+MI, ischaemic stroke, and coronary revascularization.°°° For every
+1.0 mmol/L reduction in LDL-C, these further reductions in risk
+were similar to the proportional reductions in the trials of statins
+vs. control. Therefore, statins are recommended in all patients
+with AMI, irrespective of cholesterol concentration at presenta-
+tion. Lipid-lowering treatment should be started as early as possi-
+ble, as this increases patient adherence after discharge, and given
+as high-intensity treatment, as this is associated with early and sus-
+tained clinical benefits.* The intensity of statin therapy should be
+increased in those receiving a low- or moderate-intensity statin
+treatment at presentation, unless they have a history of intoler-
+ance to high-intensity statin therapy or other characteristics that
+may influence safety.*°°°°° The treatment goal is an LDL-C con-
+centration of < 1.8 mmol/L (<70 mg/dL) or at least 50% reduction
+in LDL-C if the baseline LDL-C level is 1.8-3.5 mmol/L.4°°7?°?
+The use of lower-intensity statin therapy should be considered in
+patients at increased risk of side effects from statins (e.g. elderly,
+hepatic or renal impairment, previous side effects, or a potential
+for interaction with essential concomitant therapy). Following MI,
+the lipid profile goes through phasic changes, with small reduc-
+tions in total cholesterol, LDL-C, and HDL-C, and increases in tri-
+glycerides within the first 24h.°”°°”"" A lipid profile should be
+obtained as early as possible after admission for STEMI and can be
+non-fasting, as total and HDL-C show little diurnal variation and
+LDL-C variation is within 10%.°”* Lipids should be re-evaluated
+4-6 weeks after the ACS to determine whether the target levels
+have been reached and regarding safety issues; the lipid lowering
+therapy can then be adjusted accordingly. Trial results with high
+doses of atorvastatin and simvastatin°°°?’?°”> favour a high-
+intensity statin.",amgen-s3-gco-document-search/General/field_rep_ai/05-2017 ESC Guidelines.pdf,Field Rep AI,0.5509,https://amgen-s3-gco-document-search.s3.us-west-2.amazonaws.com/General/field_rep_ai/05-2017%20ESC%20Guidelines.pdf,33
