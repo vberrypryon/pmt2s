@@ -5,6 +5,9 @@ import streamlit as st
 
 # Load environment variables from .env if in development mode
 if os.getenv('DEVELOPMENT_MODE') == "True":
+    print("--------------------")
+    print("Loading environment variables from .env file...")
+    print("--------------------")
     load_dotenv(override=True)
     openai_api_key = os.getenv('OPENAI_API_KEY')
 else:
