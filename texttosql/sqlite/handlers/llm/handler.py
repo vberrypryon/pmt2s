@@ -3,15 +3,16 @@ from dotenv import load_dotenv
 import json, re, os
 import streamlit as st
 
+load_dotenv(override=True)
+
 # Load environment variables from .env if in development mode
-if os.getenv('DEVELOPMENT_MODE') == "True":
-    print("--------------------")
-    print("Loading environment variables from .env file...")
-    print("--------------------")
+if os.getenv('DEVELOPMENT_MODE'):
+    print(f'\n\nRunning in DEVELOPMENT mode...\n\n')
     load_dotenv(override=True)
     openai_api_key = os.getenv('OPENAI_API_KEY')
 else:
-    openai_api_key = st.secrets["openai_api_key"]
+    print(f'\n\nRunning in PRODUCTION mode...\n\n')
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 client = OpenAI(api_key=openai_api_key)
 
