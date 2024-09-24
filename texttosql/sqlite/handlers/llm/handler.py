@@ -4,7 +4,7 @@ import json, re, os
 import streamlit as st
 
 # Load environment variables from .env if in development mode
-if os.getenv('DEVELOPMENT_MODE'):
+if os.getenv('DEVELOPMENT_MODE') == "True":
     load_dotenv(override=True)
     openai_api_key = os.getenv('OPENAI_API_KEY')
 else:
