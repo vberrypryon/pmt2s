@@ -1,10 +1,16 @@
 from openai import OpenAI
 from dotenv import load_dotenv
-import json, re
+import json, re, os
+import streamlit as st
 
-load_dotenv(override=True)
+# Load environment variables from .env if in development mode
+if os.getenv('DEVELOPMENT_MODE'):
+    load_dotenv(override=True)
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+else:
+    openai_api_key = st.secrets["openai_api_key"]
 
-client = OpenAI()
+client = OpenAI(api_key=openai_api_key)
 
 class SQLiteLLMHandler:
     def __init__(self):

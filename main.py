@@ -68,7 +68,14 @@ def display_query_result(query_input, db_name):
 def main():
     global engine
 
-    st.title("Pryon Text2SQL")
+    st.markdown(
+        """
+        <div style="display: flex; justify-content: center;">
+            <h1>Pryon Text2SQL</h1>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
     uploaded_files = st.file_uploader(
         "Upload a file or multiple files from a directory",
