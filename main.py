@@ -71,7 +71,7 @@ def main():
     st.markdown(
         """
         <div style="display: flex; justify-content: center;">
-            <h1>Pryon Text2SQL</h1>
+            <h1>AFRL Portfolio Management</h1>
         </div>
         """,
         unsafe_allow_html=True
